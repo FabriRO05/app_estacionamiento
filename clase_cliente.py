@@ -3,3 +3,4 @@ class Cliente:
         self.id = id
         self.medio_de_pago = medio_de_pago
         self.id_transaccion = id_transaccion
+        
