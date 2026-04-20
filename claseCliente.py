@@ -1,6 +1,8 @@
 class Cliente:
-    def __init__ (self, id, medio_de_pago, id_transaccion):
+    def __init__ (self, id, medio_de_pago, id_transaccion, monto):
         self.id = id
         self.medio_de_pago = medio_de_pago
         self.id_transaccion = id_transaccion
+        self.monto = monto
+
         
